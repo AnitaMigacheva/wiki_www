@@ -1,0 +1,22 @@
+body {
+  font-family: "Sans-Serif", sans-serif;
+}
+
+h1 {
+  font-family: "Georgia regular";
+  font-weight: 300;
+}
+
+ol {
+  list-style: none;
+  counter-reset: li;
+}
+
+li::before {
+  counter-increment: li;
+  content: counters(li,".") ". ";
+}
+
+.contents {
+
+}
