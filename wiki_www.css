@@ -12,7 +12,17 @@ h2 {
   font-size: 30px;
   padding-top: 6px;
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 24px;
+}
+
+h3 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 26px;
+}
+
+h2 + h3 {
+  margin-top: 12px;
 }
 
 p {
